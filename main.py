@@ -11,7 +11,6 @@ class MyClient(discord.Client):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         
-
     # async def sendbotchannel(self, msg):
     #     '''bot用チャンネルに書き込む'''
     #     bot_channel = self.get_channel(id_bot_channel)
